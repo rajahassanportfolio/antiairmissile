@@ -1,0 +1,14 @@
+import numpy as np
+
+TIME_STEP = 0.1
+TOTAL_TIME = 30
+
+TARGET_INIT_POS = [0, 1000]
+TARGET_VELOCITY = [50, -10]
+
+MISSILE_INIT_POS = [0, 0]
+MISSILE_SPEED = 200
+MAX_TURN_RATE = np.deg2rad(20)  # radians/sec
+
+NAV_CONSTANT = 4
+HIT_DISTANCE = 10  # meters
